@@ -15,4 +15,12 @@ public class Docente extends Persona{
         System.out.println("Materia: " + materia);
 
     }
+
+    public String getMateria() {
+        return materia;
+    }
+
+    public void setMateria(String materia) {
+        this.materia = materia;
+    }
 }

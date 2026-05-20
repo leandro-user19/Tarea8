@@ -13,4 +13,12 @@ public class Estudiante extends Persona{
         super.mostrar();
         System.out.println("Carrera: " + carrera);
     }
+
+    public String getCarrera() {
+        return carrera;
+    }
+
+    public void setCarrera(String carrera) {
+        this.carrera = carrera;
+    }
 }
